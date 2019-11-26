@@ -1,0 +1,288 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+p::selection {
+    background: #609719;
+    color: white;
+}
+
+a::selection {
+    background: #609719;
+    color: white;
+}
+
+p::selection {
+    background: #609719;
+    color: white;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+header nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background: #609719;
+    height: 70px;
+}
+
+header nav .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav p{
+    color: white;
+    font-size: 20px;
+}
+
+header nav p.logo{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+header nav img {
+    cursor: pointer;
+}
+
+.owl-carousel {
+    margin-top: 70px;
+    overflow: hidden;
+    height: calc(100vh - 70px);
+    cursor: pointer;
+}
+
+.owl-carousel img {
+    height: calc(100vh - 70px)
+}
+
+
+
+main section.sect {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: 
+}
+
+main section.sect p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-right:20px;
+    cursor: pointer;
+    margin-right: auto;
+    width:33.33%;
+}
+
+main section.sect p:hover {
+    border-bottom: 2px solid #609719;
+    transition: 0.15s;
+}
+
+main .sect p.active {
+    border-bottom: 2px solid #609719;
+}
+
+main .invisible {
+    display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 3px 8px 5px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer
+}
+
+.sidenav .sub.section a {
+    padding: 3px 8px 5px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #101010;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .subsub.section a {
+    padding: 3px 8px 5px 45px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #414141;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .sub.section.visible {
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .subsub.section.visible {
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .sub.section{
+    display: none;
+}
+
+.sidenav .subsub.section {
+    display: none;
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #609719;
+}
+
+.sidenav .sub.section a:hover {
+    color: #609719;
+}
+
+.sidenav .subsub.section a:hover {
+    color: #609719;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+footer {
+    width: 100%;
+    background: #103A0D;
+    color: white;
+    margin-top: 100px;
+}
+
+footer .telNum {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+footer .content .catalog {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+footer .content .more {
+    
+}
+
+footer .policy {
+    height: 70px;
+    background:#062404;
+    overflow: hidden;
+}
+
+footer .policy p {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2.5vh;
+}
+
+footer .content .catalog ul {
+    margin-block-start: 0.2em;
+    padding-inline-start: 20px;
+
+}
+
+footer .content .catalog section {
+    margin-left: 20px;
+}
+
+footer .content .catalog ul li a:hover {
+    color: #609719;
+}
+
+footer h1{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
