@@ -5,60 +5,6 @@ body {
 
 }
 
-
-
-.logo #logo path:first-child {
-    stroke-dasharray: 10px;
-}
-
-#logo path:nth-child(2) {
-    
-}
-
-#logo path:nth-child(3) {
-    
-}
-
-#logo path:nth-child(4) {
-    
-}
-
-#logo path:nth-child(5) {
-    
-}
-
-#logo path:nth-child(6) {
-    
-}
-
-#logo path:nth-child(7) {
-    
-}
-
-#logo path:nth-child(8) {
-    
-}
-
-#logo path:nth-child(9) {
-    
-}
-
-#logo path:nth-child(10) {
-    
-}
-
-#logo path:nth-child(11) {
-    
-}
-
-#logo path:nth-child(12) {
-    
-}
-
-#logo path:nth-child(13) {
-    
-}
-
 p::selection {
     background: #609719;
     color: white;
@@ -89,7 +35,7 @@ header nav {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    background: #2e99d1;
+    background: #609719;
     height: 70px;
 }
 
@@ -135,7 +81,7 @@ header .owl-carousel.owl-theme.carouselMy {
 }
 
 .owl-carousel div img {
-    height: 78vh;
+    height: calc(100vh - 70px);
 }
 
 div.owl-dots {
@@ -181,12 +127,12 @@ main section.sect p {
 }
 
 main section.sect p:hover {
-    border-bottom: 2px solid #2e99d1;
+    border-bottom: 2px solid #609719;
     transition: 0.15s;
 }
 
 main .sect p.active {
-    border-bottom: 2px solid #2e99d1;
+    border-bottom: 2px solid #609719;
 }
 
 main .invisible {
@@ -258,15 +204,15 @@ main .invisible {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #2e99d19;
+    color: #609719;
 }
 
 .sidenav .sub.section a:hover {
-    color: #2e99d1;
+    color: #609719;
 }
 
 .sidenav .subsub.section a:hover {
-    color: #2e99d1;
+    color: #609719;
 }
 
 /* Position and style the close button (top right corner) */
@@ -286,7 +232,7 @@ main .invisible {
 
 footer {
     width: 100%;
-    background: #2680af;
+    background: #3b5c11;
     color: white;
     margin-top: 100px;
 }
@@ -318,7 +264,7 @@ footer .content .more {
 
 footer .policy {
     height: 70px;
-    background:#1e668d;
+    background:#213408;
     overflow: hidden;
 }
 
@@ -340,7 +286,7 @@ footer .content .catalog section {
 }
 
 footer .content .catalog ul li a:hover {
-    color: #2e99d1;
+    color: #609719;
 }
 
 footer h1{
